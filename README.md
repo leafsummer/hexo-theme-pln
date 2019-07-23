@@ -11,7 +11,7 @@ a plain, text-friendly Hexo theme
 Execute the following command under your `hexo` folder.
 
 ```
-git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
+git clone https://github.com/leafsummer/hexo-theme-pln.git themes/pln
 ```
 
 Then find `theme` in `hexo/_config.yml`, make it looks like this: `theme: pln` 
@@ -60,11 +60,6 @@ excerpt_num: **number of auto excerpt words**
 footer_info: **black words fixed on the right end**
 ```
 ***
-# Issues
-[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.  
-欢迎您对本项目提供和意见和建议。  
-(请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
-***
 # Changelog
 - `2016-04-12`: init
 - `2016-04-13`: disqus showing same comments bug fix
@@ -97,6 +92,7 @@ footer_info: **black words fixed on the right end**
 - `2017-08-27`: remove wx_share.png; remove fontawesome, use inline SVG
 - `2018-02-03`: support TOC, finally
 - `2018-05-04`: optional TOC; Fixed #27
+- `2019-07-23`: change some css files, and add image zoom function
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
