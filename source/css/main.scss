@@ -10,9 +10,9 @@ $background: #fdfefe;
 $theme: #2570a1;
 $para: #444;
 $lighter: #9c9c9c;
-$big: 32px;
-$mid: 26px;
-$small: 18px;
+$big: 30px;
+$mid: 24px;
+$small: 16px;
 ::selection {
     background: lighten($theme, 40%);
 }
@@ -41,7 +41,7 @@ h1 {
     font-size: $big;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC|Open+Sans|Open+Sans+Condensed:300,700|Pacifico);
 
 .index-title,
 .navbar-brand,
@@ -64,7 +64,7 @@ h6,
 body {
     overflow-x: hidden;
     font-size: $small;
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "PingFang SC",STHeiti,"Helvetica Neue","Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    font-family: 'Noto Sans SC', 'Open Sans', -apple-system, BlinkMacSystemFont, "PingFang SC",STHeiti,"Helvetica Neue","Microsoft Yahei",Tahoma,Simsun,sans-serif;
     background-color: $background;
     margin: 0;
     padding: 0;
@@ -124,6 +124,11 @@ p {
     outline: 0;
     background: transparent;
     text-justify: auto;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .post ul li {
@@ -229,7 +234,7 @@ blockquote {
         color: #1a1a1a;
         text-indent: 0;
         line-height: 1.6;
-        font-size: $mid;
+        font-size: $small;
     }
 }
 

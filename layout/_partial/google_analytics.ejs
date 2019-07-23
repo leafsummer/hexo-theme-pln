@@ -1,0 +1,12 @@
+<% if (theme.google_analytics_id) { %>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.google_analytics_id %>"></script>
+  <script>
+    var host = window.location.hostname;
+    if (host !== "localhost" || host !== "127.0.0.1") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '<%= theme.google_analytics_id %>');
+    }
+  </script>
+<% } %>

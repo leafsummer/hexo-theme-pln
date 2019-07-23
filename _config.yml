@@ -6,9 +6,8 @@ logo: XXX
 
 more:
   友情链接: /links.html
-  Github: https://github.com/XXX/
-  微博: http://weibo.com/XXX
-  知乎: https://www.zhihu.com/people/XXX
+  Github: https://github.com/leafsummer/
+  douban: https://www.douban.com/people/leaf0s/
   rss: /rss2.xml
   关于我: /
 
@@ -31,7 +30,17 @@ valine:
   notify: false # valine mail notify (true/false)
   lang: zh-cn
 
+google_analytics_id:
 
+tags: tags
+categories: /categories
 excerpt_num: 120
 
-footer_info: © XXX 20xx-2017
+footer_info: © XXXX 20xx-2020
+
+local_search:
+  enable: true
+  trigger: auto
+
+# Fancybox support
+fancybox: true
