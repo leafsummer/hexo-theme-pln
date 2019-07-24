@@ -225,11 +225,13 @@ article {
 }
 
 blockquote {
+    box-sizing: border-box;
     margin: 30px 0;
     font-style: italic;
     padding: 0;
     padding-left: 3rem;
     border: 0;
+    border-left: #4A4A4A 0.4em solid;
     p {
         color: #1a1a1a;
         text-indent: 0;
