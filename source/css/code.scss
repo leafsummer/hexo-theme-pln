@@ -36,7 +36,7 @@ pre {
     // background-image: linear-gradient($bg 50%, transparent 0);
     background-color: $bg;
     .comment {
-        color: lighten($theme, 30%);
+        color: darken($theme, 30%);
     }
     .line {
         height: 30px;

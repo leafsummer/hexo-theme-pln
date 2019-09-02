@@ -94,6 +94,7 @@ footer_info: **black words fixed on the right end**
 - `2018-05-04`: optional TOC; Fixed #27
 - `2019-07-23`: change some css files, and add image zoom function
 - `2019-07-31`: add [jinrishici](https://www.jinrishici.com/) sdk
+- `2019-09-02`: add read progress bar on top, optimize some css about the code
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
